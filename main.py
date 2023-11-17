@@ -41,4 +41,5 @@ if __name__ == '__main__':
     ex = Suprematism()
     ex.show()
     sys.excepthook = except_hook
+    print()
     sys.exit(app.exec())
