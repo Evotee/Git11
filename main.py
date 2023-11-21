@@ -38,7 +38,7 @@ def except_hook(cls, exception, traceback):
 
 
 if __name__ == '__main__':
-    app = QApplication(sys.argv)
+    app = QApplication1(sys.argv)
     ex = Suprematism1()
     ex.show()
     sys.excepthook = except_hook
