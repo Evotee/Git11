@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import QWidget, QApplication
 from PyQt5.QtGui import QPainter, QColor
 
 
-class Suprematism(QWidget):
+class Suprematism1(QWidget):
     def __init__(self):
         super().__init__()
         self.initUI()
@@ -39,7 +39,7 @@ def except_hook(cls, exception, traceback):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    ex = Suprematism()
+    ex = Suprematism1()
     ex.show()
     sys.excepthook = except_hook
     sys.exit(app.exec())
