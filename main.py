@@ -10,6 +10,7 @@ class Suprematism(QWidget):
     def __init__(self):
         super().__init__()
         self.initUI()
+        pass
 
     def initUI(self):
         self.setGeometry(300, 300, 500, 500)
